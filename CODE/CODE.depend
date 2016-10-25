@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1477305065 source:d:\考研\考研\数据结构\c-\code\sqlist.c
+	<stdio.h>
+	<stdlib.h>
+	<Status.h>
+	<Sqlist.h>
+
+1477303898 d:\考研\考研\数据结构\c-\code\\status.h
+
+1477304658 d:\考研\考研\数据结构\c-\code\\sqlist.h
+	<stdio.h>
+	<Status.h>
+

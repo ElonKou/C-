@@ -24,7 +24,6 @@
 /*状态码识别类型*/
 typedef int Status;
 
-
 /*宏函数*/
 //函数暂停一段时间
 #define Wait(x)\
@@ -32,7 +31,7 @@ typedef int Status;
     double _loop_Num_;\
     for(_loop_Num_=0.01;_loop_Num_<=100000*x;_loop_Num_+=0.01){\
         ;\
-    }
+    }\
 }//建立一个空循环
 
 //按下Eter键继续
@@ -44,6 +43,4 @@ typedef int Status;
     fflush(stdin);\
 }
 
-
 #endif // STATUS_H
-
