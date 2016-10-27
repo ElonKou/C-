@@ -13,6 +13,7 @@
 				<Option compiler="tcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="G:/SOFTWARE/CodeBlocks/projects/C-/CODE/" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
