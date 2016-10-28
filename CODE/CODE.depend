@@ -15,3 +15,25 @@
 	<stdio.h>
 	<Status.h>
 
+1477539287 source:g:\software\codeblocks\projects\c-\code\sqlist.c
+	<stdio.h>
+	<stdlib.h>
+	<Status.h>
+	<Sqlist.h>
+
+1477378813 g:\software\codeblocks\projects\c-\code\\status.h
+
+1477539310 g:\software\codeblocks\projects\c-\code\\sqlist.h
+	<stdio.h>
+	<Status.h>
+
+1477539497 source:g:\software\codeblocks\projects\c-\code\linklist.c
+	<stdint.h>
+	<stdlib.h>
+	<Status.h>
+	<LinkList.h>
+
+1477539638 g:\software\codeblocks\projects\c-\code\\linklist.h
+	<stdio.h>
+	<stdlib.h>
+

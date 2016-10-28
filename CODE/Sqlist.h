@@ -10,9 +10,13 @@ typedef struct{
     int listSize;
 }Sqlist;
 
-//é“¾è¡¨åˆå§‹åŒ–
+//Á´±í³õÊ¼»¯
 Status InitList_Sq(Sqlist *L);
-//æ¸…ç©ºåˆ—è¡¨
-ClearList_Sq(Sqlist *L);
-//é”€æ¯åˆ—è¡¨
-Status DestoryList_Sq(Sqlist *L);
+//²åÈë½Úµã
+Status ListInsert_Sq(Sqlist *L,int i,ElemType e);
+//É¾³ıÒ»¸ö½ÚµãµÄÊı¾İ,ÓÃe·µ»ØÉ¾³ıµÄÊı¾İ
+Status ListDelete_Sq(Sqlist *L,int i,ElemType e);
+//²éÕÒÒ»¸ö½ÚµãµÄÊıÖµ
+int LocateElem_Sq(Sqlist L,ElemType e,Status (* compare)(ElemType,ElemType));
+//ºÏ²¢Á´±í
+void MergeList_Sq(Sqlist La,Sqlist Lb,Sqlist *Lc);

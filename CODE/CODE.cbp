@@ -13,6 +13,7 @@
 				<Option compiler="tcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="G:/SOFTWARE/CodeBlocks/projects/C-/CODE/" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -26,17 +27,31 @@
 			<Add option="-Wall" />
 			<Add directory="D:/考研/考研/数据结构/C-/CODE/" />
 		</Compiler>
+		<Unit filename="LinkList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LinkList.h" />
 		<Unit filename="Sqlist.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
 		<Unit filename="Sqlist.h">
 			<Option compile="1" />
 			<Option link="1" />
 		</Unit>
 		<Unit filename="Status.cpp" />
+<<<<<<< HEAD
 		<Unit filename="Status.h">
 			<Option compile="1" />
 			<Option link="1" />
+=======
+		<Unit filename="Status.h" />
+		<Unit filename="test.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+>>>>>>> 02f65f3964cf8b522c2ded9813f3b59bf680c110
 		</Unit>
 		<Extensions>
 			<code_completion />
