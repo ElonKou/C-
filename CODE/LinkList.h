@@ -11,3 +11,6 @@ Status GetElem_L(LinkList L,int i,ElemType e);
 
 //插入某个书数据到序列号2.10
 Status ListInsert_L(LinkList L,int i,ElemType e);
+
+//创建List列表2.11
+Status CreateList_L(LinkList L,int n);
