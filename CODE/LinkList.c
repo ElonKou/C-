@@ -1,4 +1,4 @@
-#include <stdint.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <Status.h>
 #include <LinkList.h>
@@ -59,7 +59,7 @@ Status ListDelete_L(LinkList L,int i,ElemType e){
     return OK;
 }
 
-//创建List列表
+//创建List列表2.11
 Status CreateList_L(LinkList L,int n){
     //创建头节点
     LinkList L = (LinkList)malloc(sizeof(LNode));
@@ -73,3 +73,25 @@ Status CreateList_L(LinkList L,int n){
     }
 }
 
+//按照顺序合并List列表2.12
+Status MergeList_L(LinkList La,LinkList Lb,LinkList Lc){
+    //首先将Lc列表初始化为La
+    Lc = La;
+    LinkList pa = La->next;
+    LinkList pb = Lb->next;
+    LinkList pc = Lc;
+    while(pa&&pb){
+        if(pa->data<=pb->data){
+            pc->next = pa;
+            pc = pa;
+            pa = pa->next;
+        }else{
+            pc->next = pb;
+            pc = pb;
+            pb = pb->next;
+        }
+    }
+    pc->next = pa ? pb : pa;
+    free(La);
+    free(Lb);
+}

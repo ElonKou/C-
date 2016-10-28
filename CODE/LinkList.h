@@ -14,3 +14,6 @@ Status ListInsert_L(LinkList L,int i,ElemType e);
 
 //创建List列表2.11
 Status CreateList_L(LinkList L,int n);
+
+//按照顺序合并List列表2.12
+Status MergeList_L(LinkList La,LinkList Lb,LinkList Lc)

@@ -27,22 +27,28 @@
 			<Add option="-Wall" />
 			<Add directory="D:/考研/考研/数据结构/C-/CODE/" />
 		</Compiler>
-		<Unit filename="LinkList.c">
+		<Unit filename="DuNode.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="LinkList.h">
-			<Option compile="1" />
-			<Option link="1" />
+		<Unit filename="DuNode.h" />
+		<Unit filename="LinkList.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
+		<Unit filename="LinkList.h" />
+		<Unit filename="SLinkList.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="SLinkList.h" />
 		<Unit filename="Sqlist.c">
 			<Option compilerVar="CC" />
 			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
-		<Unit filename="Sqlist.h">
-			<Option compile="1" />
-			<Option link="1" />
-		</Unit>
+		<Unit filename="Sqlist.h" />
 		<Unit filename="Status.cpp" />
 		<Unit filename="Status.h" />
 		<Unit filename="test.c">
