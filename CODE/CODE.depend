@@ -11,7 +11,7 @@
 	<stdio.h>
 	<Status.h>
 
-1477388953 source:d:\考研\考研\数据结构\c-\code\sqlist.h
+1477629645 source:d:\考研\考研\数据结构\c-\code\sqlist.h
 	<stdio.h>
 	<Status.h>
 
@@ -34,6 +34,20 @@
 	<LinkList.h>
 
 1477539638 g:\software\codeblocks\projects\c-\code\\linklist.h
+	<stdio.h>
+	<stdlib.h>
+
+1477631349 source:d:\考研\考研\数据结构\c-\code\linklist.c
+	<stdint.h>
+	<stdlib.h>
+	<Status.h>
+	<LinkList.h>
+
+1477631361 d:\考研\考研\数据结构\c-\code\\linklist.h
+	<stdio.h>
+	<stdlib.h>
+
+1477630775 source:d:\考研\考研\数据结构\c-\code\linklist.h
 	<stdio.h>
 	<stdlib.h>
 

@@ -30,7 +30,10 @@
 		<Unit filename="LinkList.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="LinkList.h" />
+		<Unit filename="LinkList.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="Sqlist.c">
 			<Option compilerVar="CC" />
 			<Option compile="0" />
@@ -41,17 +44,11 @@
 			<Option link="1" />
 		</Unit>
 		<Unit filename="Status.cpp" />
-<<<<<<< HEAD
-		<Unit filename="Status.h">
-			<Option compile="1" />
-			<Option link="1" />
-=======
 		<Unit filename="Status.h" />
 		<Unit filename="test.c">
 			<Option compilerVar="CC" />
 			<Option compile="0" />
 			<Option link="0" />
->>>>>>> 02f65f3964cf8b522c2ded9813f3b59bf680c110
 		</Unit>
 		<Extensions>
 			<code_completion />

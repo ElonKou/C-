@@ -25,16 +25,6 @@ Status ListInsert_Sq(Sqlist *L,int i,ElemType e){
     }
     if(L->length >= L->listSize){
         //L->elem = (ElemType*)malloc(LIST_INIT_SIZE * sizeof(ElemType));
-<<<<<<< HEAD
-        ElemType* newbase = (ElemType*)realloc(L->elem,sizeof(ElemType)*(L->listSize+LISTINCREAMENT));
-        if(!newbase){
-            exit(OVERFLOW);
-        }
-        L->elem = newbase;
-        L->listSize += LISTINCREAMENT;
-    }
-    ElemType q = &(L->elem[i-1]);
-=======
         ElemType * newbase = (ElemType*)realloc(L->elem,sizeof(ElemType)*(L->listSize+LISTINCREAMENT));
         if(!newbase){
             exit(ERROR);
@@ -47,7 +37,6 @@ Status ListInsert_Sq(Sqlist *L,int i,ElemType e){
         }
     *q = e;
     ++L->length;
->>>>>>> 02f65f3964cf8b522c2ded9813f3b59bf680c110
     return OK;
 }
 
