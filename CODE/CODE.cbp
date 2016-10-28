@@ -29,9 +29,15 @@
 		<Unit filename="Sqlist.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Sqlist.h" />
+		<Unit filename="Sqlist.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="Status.cpp" />
-		<Unit filename="Status.h" />
+		<Unit filename="Status.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

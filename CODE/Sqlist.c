@@ -22,9 +22,15 @@ Status ListInsert_Sq(Sqlist *L,int i,ElemType e){
         return ERROR;
     }
     if(L->length >= L->listSize){
-        L->elem = (ElemType*)malloc(LIST_INIT_SIZE * sizeof(ElemType));
+        //L->elem = (ElemType*)malloc(LIST_INIT_SIZE * sizeof(ElemType));
         ElemType* newbase = (ElemType*)realloc(L->elem,sizeof(ElemType)*(L->listSize+LISTINCREAMENT));
+        if(!newbase){
+            exit(OVERFLOW);
+        }
+        L->elem = newbase;
+        L->listSize += LISTINCREAMENT;
     }
+    ElemType q = &(L->elem[i-1]);
     return OK;
 }
 
