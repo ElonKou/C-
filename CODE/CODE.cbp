@@ -29,6 +29,8 @@
 		</Compiler>
 		<Unit filename="DuNode.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
 		<Unit filename="DuNode.h" />
 		<Unit filename="LinkList.c">
@@ -43,6 +45,13 @@
 			<Option link="0" />
 		</Unit>
 		<Unit filename="SLinkList.h" />
+		<Unit filename="SqStack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SqStack.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="Sqlist.c">
 			<Option compilerVar="CC" />
 			<Option compile="0" />
@@ -50,7 +59,10 @@
 		</Unit>
 		<Unit filename="Sqlist.h" />
 		<Unit filename="Status.cpp" />
-		<Unit filename="Status.h" />
+		<Unit filename="Status.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="test.c">
 			<Option compilerVar="CC" />
 			<Option compile="0" />

@@ -8,8 +8,4 @@ typedef struct DuLNode{
     struct DuLNode *next;
 }DuLNode,*DuLinkList;
 
-Status ListInsert_DuL(DuLinkList L,int i,ElemType e){
-    if(!(GetElem_DuL(L,i))){
 
-    }
-}

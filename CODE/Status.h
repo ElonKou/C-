@@ -9,6 +9,7 @@
 
 typedef int Status;
 typedef int ElemType;
+typedef int SElemType;
 
 
 #endif // STATUS_H
