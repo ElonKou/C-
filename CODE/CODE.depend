@@ -21,7 +21,7 @@
 	<Status.h>
 	<Sqlist.h>
 
-1477378813 g:\software\codeblocks\projects\c-\code\\status.h
+1477984667 g:\software\codeblocks\projects\c-\code\\status.h
 
 1477539310 g:\software\codeblocks\projects\c-\code\\sqlist.h
 	<stdio.h>
@@ -86,6 +86,30 @@
 	<SqStack.c>
 
 1477916674 d:\考研\考研\数据结构\c-\code\\sqstack.c
+	<stdio.h>
+	<stdlib.h>
+	<Status.h>
+	<SqStack.h>
+
+1478104393 source:g:\software\codeblocks\projects\c-\code\sqstack.c
+	<stdio.h>
+	<stdlib.h>
+	<Status.h>
+	<SqStack.h>
+
+1478107499 g:\software\codeblocks\projects\c-\code\\sqstack.h
+	<Status.h>
+	<stdlib.h>
+
+1478104426 source:g:\software\codeblocks\projects\c-\code\sqstack.h
+	<Status.h>
+	<stdlib.h>
+
+1478107531 source:g:\software\codeblocks\projects\c-\code\sqstack_test.c
+	<stdio.h>
+	<SqStack.h>
+
+1478103315 g:\software\codeblocks\projects\c-\code\\sqstack.c
 	<stdio.h>
 	<stdlib.h>
 	<Status.h>

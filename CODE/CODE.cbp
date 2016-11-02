@@ -45,12 +45,12 @@
 			<Option link="0" />
 		</Unit>
 		<Unit filename="SLinkList.h" />
-		<Unit filename="SqStack.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="SqStack.h">
 			<Option compile="1" />
 			<Option link="1" />
+		</Unit>
+		<Unit filename="SqStack_test.c">
+			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Sqlist.c">
 			<Option compilerVar="CC" />
