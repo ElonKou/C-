@@ -39,18 +39,27 @@
 			<Option link="0" />
 		</Unit>
 		<Unit filename="LinkList.h" />
+		<Unit filename="Queue.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Queue.h" />
 		<Unit filename="SLinkList.c">
 			<Option compilerVar="CC" />
 			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
 		<Unit filename="SLinkList.h" />
-		<Unit filename="SqStack.h">
-			<Option compile="1" />
-			<Option link="1" />
+		<Unit filename="SqQueue.c">
+			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="SqQueue.h" />
+		<Unit filename="SqStack.h" />
 		<Unit filename="SqStack_test.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
 		<Unit filename="Sqlist.c">
 			<Option compilerVar="CC" />

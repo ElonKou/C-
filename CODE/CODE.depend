@@ -21,7 +21,7 @@
 	<Status.h>
 	<Sqlist.h>
 
-1477984667 g:\software\codeblocks\projects\c-\code\\status.h
+1478170969 g:\software\codeblocks\projects\c-\code\\status.h
 
 1477539310 g:\software\codeblocks\projects\c-\code\\sqlist.h
 	<stdio.h>
@@ -97,7 +97,7 @@
 	<Status.h>
 	<SqStack.h>
 
-1478107499 g:\software\codeblocks\projects\c-\code\\sqstack.h
+1478165361 g:\software\codeblocks\projects\c-\code\\sqstack.h
 	<Status.h>
 	<stdlib.h>
 
@@ -105,7 +105,7 @@
 	<Status.h>
 	<stdlib.h>
 
-1478107531 source:g:\software\codeblocks\projects\c-\code\sqstack_test.c
+1478163451 source:g:\software\codeblocks\projects\c-\code\sqstack_test.c
 	<stdio.h>
 	<SqStack.h>
 
@@ -114,4 +114,23 @@
 	<stdlib.h>
 	<Status.h>
 	<SqStack.h>
+
+1478172773 source:g:\software\codeblocks\projects\c-\code\queue.c
+	<stdio.h>
+	<stdlib.h>
+	<Queue.h>
+
+1478172796 g:\software\codeblocks\projects\c-\code\\queue.h
+	<Status.h>
+
+1478175659 source:g:\software\codeblocks\projects\c-\code\sqqueue.c
+	<stdio.h>
+	<stdlib.h>
+	<SqQueue.h>
+
+1478174610 g:\software\codeblocks\projects\c-\code\\sqqueue.h
+	<Status.h>
+
+1478174371 source:g:\software\codeblocks\projects\c-\code\sqqueue.h
+	<Status.h>
 

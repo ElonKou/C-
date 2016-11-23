@@ -94,11 +94,10 @@ Status StackTraverse(SqStack S,Status (*visit)()){
 }
 
 Status PrintStack(SqStack S){
-    SElemType *p = S.top;
-    SElemType e;
-    while(p-->S.base){
-        e = *(p);
-        printf("%d",e);
+    SElemType *p = S.base;
+    while(p<S.top){
+        printf("%c",*(p));
+        p++;
     }
     printf("\n");
     return OK;
