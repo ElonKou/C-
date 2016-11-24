@@ -21,7 +21,7 @@
 	<Status.h>
 	<Sqlist.h>
 
-1478170969 g:\software\codeblocks\projects\c-\code\\status.h
+1479897574 g:\software\codeblocks\projects\c-\code\\status.h
 
 1477539310 g:\software\codeblocks\projects\c-\code\\sqlist.h
 	<stdio.h>
@@ -133,4 +133,14 @@
 
 1478174371 source:g:\software\codeblocks\projects\c-\code\sqqueue.h
 	<Status.h>
+
+1479896374 source:g:\software\codeblocks\projects\c-\code\tree.c
+	<stdio.h>
+	<Tree.h>
+
+1479898635 g:\software\codeblocks\projects\c-\code\\tree.h
+	<Status.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
 

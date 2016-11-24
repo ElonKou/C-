@@ -5,12 +5,15 @@
 #define TRUE    1
 #define FALSE   0
 #define INFEASIBLE  -1
-#define OVERFLOW    -2
+//#define OVERFLOW    -2
 
 typedef int Status;
 typedef int ElemType;
 typedef int SElemType;
 typedef int QElemType;
+
+//树形结构
+typedef int TElemType;
 
 
 #endif // STATUS_H

@@ -53,6 +53,8 @@
 		<Unit filename="SLinkList.h" />
 		<Unit filename="SqQueue.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
 		<Unit filename="SqQueue.h" />
 		<Unit filename="SqStack.h" />
@@ -72,6 +74,10 @@
 			<Option compile="1" />
 			<Option link="1" />
 		</Unit>
+		<Unit filename="Tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Tree.h" />
 		<Unit filename="test.c">
 			<Option compilerVar="CC" />
 			<Option compile="0" />
