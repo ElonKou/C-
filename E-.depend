@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1483957927 source:d:\kaoyan\jisaunji\data_struc\e-\status.h
+
+1483888154 source:d:\kaoyan\jisaunji\data_struc\e-\test.c
+	<stdio.h>
+	<stdlib.h>
+	<Status.h>
+	<Sqlist.h>
+
+1483957927 d:\kaoyan\jisaunji\data_struc\e-\\status.h
+
+1483888409 d:\kaoyan\jisaunji\data_struc\e-\\sqlist.h
+	<stdio.h>
+	<Status.h>
+
+1484106642 source:d:\kaoyan\jisaunji\data_struc\e-\graph_matrix.c
+	<Graph_Matrix.h>
+
+1484114917 d:\kaoyan\jisaunji\data_struc\e-\\graph_matrix.h
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<Status.h>
+
+1484114435 source:d:\kaoyan\jisaunji\data_struc\e-\graph_matrix.h
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<Status.h>
+
+1483966528 source:d:\kaoyan\jisaunji\data_struc\e-\new_test.c
+	<stdio.h>
+	<stdlib.h>
+
+1484128704 source:d:\kaoyan\jisaunji\data_struc\e-\graph_alist.c
+	<Graph_AList.h>
+
+1484193148 d:\kaoyan\jisaunji\data_struc\e-\\graph_alist.h
+	<stdio.h>
+	<stdlib.h>
+	<Status.h>
+
+1484193428 source:d:\kaoyan\jisaunji\data_struc\e-\graph_olist.c
+	<Graph_OList.h>
+
+1484214203 d:\kaoyan\jisaunji\data_struc\e-\\graph_olist.h
+	<stdio.h>
+	<stdlib.h>
+	<Status.h>
+
+1484202160 source:d:\kaoyan\jisaunji\data_struc\e-\graph_olist.h
+	<stdio.h>
+	<Status.h>
+
